@@ -1,1 +1,56 @@
-
+body { 
+  background: url(C:/Users/Josh/Desktop/Projects/css_layout_exercises_starter_files/images/outerspace_landscape.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+nav {
+	position: fixed;
+	background-color: grey;
+	width: 100%;
+	height: 60px;
+}
+nav ul {
+	list-style: none;
+	display: inline-block;
+}
+nav li {
+	display: inline-block;
+}
+.logo {
+	height: 50px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 50px;
+	vertical-align: middle;
+	border: 1px solid black;
+}
+main {
+	padding-top: 90px;
+	min-width: 1000px;
+}
+.box {
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	height: 300px;
+	position: relative;
+	border: 10px dotted green;
+}
+.spacecat {
+	position: absolute;
+	width: 200px;
+	top: -90px;
+	left: -90px;
+}
+.spacedog {
+	position: absolute;
+	width: 200px;
+	top: 120px;
+	right: -60px;
+}
